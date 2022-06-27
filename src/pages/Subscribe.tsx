@@ -71,8 +71,8 @@ export function Subscribe() {
           </form>
         </div>
       </div>
-      <img src="/public/assets/images/ReactJS_icon.png" className="absolute"/>
-      <img src="/public/assets/images/code-mockup.png" className="mt-10"/>
+      <img src="/assets/images/ReactJS_icon.png" alt="Logo react" className="absolute"/>
+      <img src="/assets/images/code-mockup.png" alt="Code mockup" className="mt-10"/>
     </div>
   );
 }
