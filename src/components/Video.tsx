@@ -1,5 +1,5 @@
 import { DefaultUi, Player, Youtube } from "@vime/react";
-import { CaretRight, DiscordLogo, FileArrowDown, FileArrowUp, Image, Lightning } from "phosphor-react";
+import { CaretRight, DiscordLogo, FileArrowDown, FileArrowUp, Image, InstagramLogo, Lightning, SpotifyLogo, YoutubeLogo } from "phosphor-react";
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from "../graphql/generated";
@@ -65,19 +65,19 @@ export function Video(props: VideoProps) {
           </div>
 
           <div className="flex flex-col gap-4">
-            <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
-              <DiscordLogo size={24} />
-              Comunidade no Discord
+            <a href="https://www.youtube.com/user/oreanaca" target="_blank" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+              <YoutubeLogo size={24} />
+              Inscreva-se
             </a>
 
-            <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900">
-              <Lightning size={24} />
-              Acesse o desafio
+            <a href="https://www.instagram.com/oreanaca" target="_blank" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900">
+              <InstagramLogo size={24} />
+              Nosso Instagram
             </a>
           </div>
         </div>
         <div className="gap-8 mt-20 grid grid-cols-2">
-          <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+          <a href="	http://www.repositorio.ufc.br/handle/riufc/58567" target="_blank" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-700 h-full p-6 flex items-center">
               <FileArrowDown size={40} />
             </div>
@@ -86,7 +86,7 @@ export function Video(props: VideoProps) {
                 Material complementar
               </strong>
               <p className="text-sm text-gary-200 mt-2">
-                Acesse o material complementar para acelerar o seu desenvolvimento
+                Acesse o material complementar gratuito. Uma apostila sobre danças Tradicionais.
               </p>
             </div>
             <div className="h-full p-6 flex items-center">
@@ -96,14 +96,14 @@ export function Video(props: VideoProps) {
 
           <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-700 h-full p-6 flex items-center">
-              <Image size={40} />
+              <SpotifyLogo size={40} />
             </div>
             <div className="py-6 leading-relaxed">
               <strong className="text-2xl">
-                Wallpapers exclusivos
+                Ouça nossa playlist
               </strong>
               <p className="text-sm text-gary-200 mt-2">
-                Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina
+                Uma playlist com as melhores músicas tradicionais.
               </p>
             </div>
             <div className="h-full p-6 flex items-center">

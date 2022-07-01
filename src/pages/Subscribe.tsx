@@ -1,3 +1,4 @@
+import { RepeatOnce } from "phosphor-react";
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
@@ -63,7 +64,7 @@ export function Subscribe() {
 
             <button 
               className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
-              type="submit"
+              type="submit"                                                      
               disabled={loading}
             >
               Garantir minha vaga
